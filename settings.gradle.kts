@@ -4,4 +4,4 @@ pluginManagement {
         maven("https://repo.papermc.io/repository/maven-public")
     }
 }
-rootProject.name="Template"
+rootProject.name="Punch"
