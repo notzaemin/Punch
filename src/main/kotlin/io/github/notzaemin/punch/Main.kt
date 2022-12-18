@@ -10,7 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin
 
 class Main: JavaPlugin(), Listener {
     private val punchSlot = 4
-    private val punchPower = (30).toFloat()
+    private val punchPower = 10F
     @EventHandler
     private fun EntityDamageEvent.on() {
         if (entity is Player && cause == EntityDamageEvent.DamageCause.BLOCK_EXPLOSION) isCancelled = true
